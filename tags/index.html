@@ -1,100 +1,229 @@
+
+
+
+
+
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    
+    Tags | Patrick Adelman
+    
+  </title>
+  
+  <link rel="alternate" type="application/rss+xml" href="/tags/index.xml" title="Patrick Adelman">
+  
+  <style>
+    body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
-    
-    <title>
-      
-      Tags - Patrick Adelman
-      
-		</title>
+img {
+  max-width: 100%;
+  border-radius: 0.2rem;
+}
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="http://example.org/tags/index.xml" rel="alternate" type="application/rss+xml" title="Patrick Adelman" />
-    
-    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/icons.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
-    
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato:100,100i,300,300i,400,400i,700,700i|Source+Code+Pro:300,400,500,700" rel="stylesheet">
-    
+pre {
+  overflow-x: auto;
+  border: 0.1rem solid lightgray;
+  padding: 1rem;
+}
 
+code {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.Banner {
+  list-style: none;
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.Banner-item:nth-child(1) {
+  order: 5;
+}
+
+
+
+.Banner-item:nth-child(2) {
+  order: 4;
+}
+
+
+
+.Banner-item:nth-child(3) {
+  order: 3;
+}
+
+
+
+.Banner-item:nth-child(4) {
+  order: 2;
+}
+
+
+
+.Banner-item:nth-child(5) {
+  order: 1;
+}
+
+
+
+.Banner-link {
+  font-size: 1.25rem;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.Heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.Heading-title {
+  margin: 1.5rem 0.5rem 0 0;
+}
+
+.Heading-link {
+  color: inherit;
+}
+
+.Tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.Tags-item {
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  padding: 0 0.3rem;
+}
+
+.Tags-link {
+  color: white;
+}
+
+.Pagination {
+  font-size: 1.25rem;
+  color: inherit;
+}
+
+.Pagination--right {
+  float: right;
+}
+
+.Footer {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.u-expand {
+  flex-grow: 1;
+}
+
+.u-wrapper {
+  max-width: 42rem;
+  margin: auto;
+}
+
+.u-padding {
+  padding: 0 1rem;
+}
+
+.u-background {
+  background: teal;
+}
+
+.u-clickable {
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
     
-    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/bigfoot/dist/bigfoot.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/bigfoot/dist/bigfoot-number.css" />
-    <script type="text/javascript">
-        $.bigfoot();
-    </script>
-    
-    
+  </style>
+  <meta name="generator" content="Hugo 0.53" />
 </head>
-
-    <body class="tag-template">
-        <header class="main-header">
-	<div class="main-header-content">
-		<h1 class="blog-title">
-			<a href="/">
-				
-           Patrick Adelman
-				
-			</a>
-		</h1>
-		<h2 class="blog-description"></h2>
-	</div>
-
-	<div class="nav">
-    
-		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
-      <a class="nav- " role="presentation" href="/contact/">Contact</a>
-		
-	</div>
-</header>
-
+<body>
+  <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item u-expand">
+        <a class="Banner-link u-clickable" href="/">Patrick Adelman</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="/about/">About</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="/post/">Posts</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="/tags/">Tags</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="/categories/">Categories</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="/index.xml">RSS</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+  <main class="u-expand">
+    <div class="u-wrapper">
+      <div class="u-padding">
         
 
-<main class="content" role="main">
+<header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/tags/" rel="bookmark">Tags</a>
+  </h2>
   
-    
-      <h2 class="tag-title">Tags</h2>
-    
+</header>
+
+<ul class="tags">
   
+</ul>
 
-	<div class="extra-pagination">
-	    
 
-<nav class="pagination" role="navigation">
-    
-    <span class="page-number">Page 1 of 0</span>
-    
-</nav>
-
-	</div>
+      </div>
+    </div>
+  </main>
   
-  
-
-<nav class="pagination" role="navigation">
-    
-    <span class="page-number">Page 1 of 0</span>
-    
-</nav>
-
-</main>
-
-        <footer class="site-footer">
-  <section class="rss"><a class="subscribe-button icon-feed" href="/index.xml"></a></section>
-  
-  
-  <section class="copyright">&copy; 2019 Patrick Adelman</section>
-  <section class="poweredby"><a href="http://thedarkroast.com/arabica">Arabica</a> theme by Sean Lunsford. Published with <a href="https://gohugo.io">Hugo</a>.</section>
+<footer class="Footer">
+  <div class="u-wrapper">
+    <div class="u-padding">
+      Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"> Creative Commons Attribution 4.0 International License</a>.
+    </div>
+  </div>
 </footer>
 
-
-
-    </body>
+  
+</body>
 </html>
