@@ -8,7 +8,7 @@
       <html lang="en-us">
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>RSS | Patrick Adelman</title>
+          <title>Blogs RSS | Patrick Adelman</title>
           <style>body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   line-height: 1.6;
@@ -175,7 +175,7 @@ code {
                     <xsl:attribute name="class">Heading-link u-clickable</xsl:attribute>
                     <xsl:attribute name="href"><xsl:value-of select="channel/atom:link[@rel='self']/@href" /></xsl:attribute>
                     <xsl:attribute name="rel">bookmark</xsl:attribute>
-                    RSS
+                    Blogs RSS
                   </a>
                 </h2>
                 <p>
@@ -199,13 +199,13 @@ code {
     </xsl:template>
   </xsl:stylesheet>
   <channel>
-    <title>Patrick Adelman</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Patrick Adelman</description>
+    <title>Blogs on Patrick Adelman</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blogs on Patrick Adelman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the blog</title>
       <link>http://example.org/blog/aboutblog/</link>
