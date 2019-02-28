@@ -206,21 +206,5 @@ code {
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About the blog</title>
-      <link>http://example.org/blog/aboutblog/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aboutblog/</guid>
-      <description>&lt;p&gt;Patrick Adelman is a video lakjsdlkfjaklsdjfproducer and programmer based in New York City.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>About the blog 2</title>
-      <link>http://example.org/blog/aboutblog-copy/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://example.org/blog/aboutblog-copy/</guid>
-      <description>&lt;p&gt;Patrick Adelman is a video lakjsdlkfjaklsdjfproducer and programmer based in New York City.&lt;/p&gt;
-</description>
-    </item>
   </channel>
 </rss>

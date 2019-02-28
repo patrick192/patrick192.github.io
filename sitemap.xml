@@ -13,24 +13,8 @@
   </url>
   
   <url>
-    <loc>http://example.org/blog/aboutblog/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/blog/aboutblog-copy/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/contact/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/blog/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
