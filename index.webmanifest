@@ -2,8 +2,8 @@
   "name": "Patrick Adelman",
   "short_name": "Patrick Adelman",
   "lang": "en-us",
-  "theme_color": "rgb(76, 109, 128)",
-  "background_color": "rgb(76, 109, 128)",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",
