@@ -1,200 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<?xml-stylesheet type="text/xsl" href="#stylesheet" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xsl">
-    <xsl:output method="html" doctype-system="about:legacy-compat" />
-    <xsl:template match="/rss">
-      <html lang="en-us">
-        <head>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>RSS | Patrick Adelman</title>
-          <style>body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  line-height: 1.6;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 0rem;
-}
-
-pre {
-  overflow-x: auto;
-  border: 0.1rem solid lightgray;
-  padding: 1rem;
-}
-
-code {
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-
-
-
-
-.Banner {
-  list-style: none;
-  display: flex;
-  flex-flow: row-reverse wrap-reverse;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-
-.Banner-item:nth-child(1) {
-  order: 2;
-}
-
-
-
-.Banner-item:nth-child(2) {
-  order: 1;
-}
-
-
-
-.Banner-link {
-  font-size: 1.25rem;
-  color: white;
-  padding: 0.5rem 1rem;
-}
-
-.Heading {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.Heading-title {
-  margin: 1.5rem 0.5rem 0 0;
-}
-
-.Heading-link {
-  color: inherit;
-}
-
-.Tags {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.5rem 0;
-  padding: 0;
-}
-
-.Tags-item {
-  border-radius: 0.2rem;
-  margin: 0.2rem;
-  padding: 0 0.3rem;
-}
-
-.Tags-link {
-  color: white;
-}
-
-.Pagination {
-  font-size: 1.25rem;
-  color: inherit;
-}
-
-.Pagination--right {
-  float: right;
-}
-
-.Footer {
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.u-expand {
-  flex-grow: 1;
-}
-
-.u-wrapper {
-  max-width: 42rem;
-  margin: auto;
-}
-
-.u-padding {
-  padding: 0 1rem;
-}
-
-.u-background {
-  background: rgb(60,86,121);
-}
-
-.u-clickable {
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-}</style>
-        </head>
-        <body>
-          <nav class="u-background">
-  <div class="u-wrapper">
-    <ul class="Banner">
-      <li class="Banner-item u-expand">
-        <a class="Banner-link u-clickable" href="/">Patrick Adelman</a>
-      </li>
-      
-      <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="/about/">About</a>
-      </li>
-      
-      <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="/contact/">Contact</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
-          <main class="u-expand">
-            <div class="u-wrapper">
-              <div class="u-padding">
-                <h2 class="Heading-title">
-                  <a>
-                    <xsl:attribute name="class">Heading-link u-clickable</xsl:attribute>
-                    <xsl:attribute name="href"><xsl:value-of select="channel/atom:link[@rel='self']/@href" /></xsl:attribute>
-                    <xsl:attribute name="rel">bookmark</xsl:attribute>
-                    RSS
-                  </a>
-                </h2>
-                <p>
-                  To subscribe to this RSS feed, copy its address and paste it
-                  into your favorite feed reader.
-                </p>
-              </div>
-            </div>
-          </main>
-          
-<footer class="Footer">
-  <div class="u-wrapper">
-    <div class="u-padding">
-      Copyright 2019 Patrick Adelman
-    </div>
-  </div>
-</footer>
-
-        </body>
-      </html>
-    </xsl:template>
-  </xsl:stylesheet>
   <channel>
     <title>Patrick Adelman</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Patrick Adelman</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.patrickadelman.com/</link>
+      <atom:link href="https://www.patrickadelman.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Patrick Adelman</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.patrickadelman.com/img/icon-192.png</url>
+      <title>Patrick Adelman</title>
+      <link>https://www.patrickadelman.com/</link>
+    </image>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://www.patrickadelman.com/post/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.patrickadelman.com/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://www.patrickadelman.com/publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.patrickadelman.com/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.patrickadelman.com/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.patrickadelman.com/talk/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

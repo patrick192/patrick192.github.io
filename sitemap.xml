@@ -3,34 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.patrickadelman.com/function/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <loc>https://www.patrickadelman.com/alternatino/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <loc>https://www.patrickadelman.com/tccny/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
+    <loc>https://www.patrickadelman.com/fovea/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.patrickadelman.com/tags/machine-learning/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
+    <loc>https://www.patrickadelman.com/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/post/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/tags/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/tags/video/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.patrickadelman.com/talk/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Patrick Adelman</title>
+    <link>https://www.patrickadelman.com/tags/machine-learning/</link>
+      <atom:link href="https://www.patrickadelman.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.patrickadelman.com/img/icon-192.png</url>
+      <title>Machine Learning</title>
+      <link>https://www.patrickadelman.com/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Project Fovea</title>
+      <link>https://www.patrickadelman.com/fovea/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.patrickadelman.com/fovea/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;(2019)&lt;/strong&gt; &lt;br /&gt;
+&lt;em&gt;Software Engineer&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;An innovative eye tracking based sequence model for attention-guided video produciton.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.fractal.nyc/fovea&#34; target=&#34;_blank&#34;&gt;https://www.fractal.nyc/fovea&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
